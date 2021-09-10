@@ -112,7 +112,7 @@
 }
 
 .header {
-  background: url(../../images/headerbg.png) no-repeat center center/cover;
+  background: url(../images/headerbg.png) no-repeat center center/cover;
 }
 
 .header-effect {
@@ -1345,6 +1345,11 @@ section.model .model__img img {
   width: 400px;
 }
 
+
+section.model .dots {
+  display: none;
+}
+
 section.model .shadow {
   top: 2%;
   z-index: -1;
@@ -1813,7 +1818,7 @@ section.model .signup-block .button {
 
 @media screen and (max-width: 767px) {
   .header {
-    background: url(../../images/mobile/headerbg.png) no-repeat;
+    background: url(../images/mobile/headerbg.png) no-repeat;
     background-size: 100% 600px;
   }
 
@@ -2427,6 +2432,12 @@ section.model .signup-block .button {
 
   section.model .line {
     margin: 20px 0;
+  }
+
+  
+
+  section.model .dots {
+    display: block;
   }
 
   section.model .model__description {
