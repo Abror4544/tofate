@@ -299,6 +299,7 @@ input:focus:-ms-textarea-placeholder {
   height: 151.16px;
   background: url(../images/light.png) no-repeat center center/cover;
   position: absolute;
+  z-index: -1;
 }
 
 .button {
@@ -971,6 +972,11 @@ section.app .app-rate-stars img {
   width: 19px;
 }
 
+section.app .app-rate-stars img.unfill {
+  width: 20px;
+}
+
+
 section.app .button {
   padding: 20.5px 45.5px;
 }
@@ -1133,6 +1139,10 @@ section.reviews .review__rate {
 section.reviews .review__rate img {
   width: 15px;
   height: 15px;
+}
+
+section.reviews .review__rate img.unfill {
+  width: 16px;
 }
 
 section.reviews .review__rate__date {
